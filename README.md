@@ -222,3 +222,14 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+
+
+Number and name of feature: changing the inforemaiton 
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 3 : 00
+
+Finish time: 4 : 00
+
+Actual time needed to complete: 1hr 
