@@ -86,7 +86,7 @@ class Landing extends React.Component {
                         <span>Welcome to my awesome Website </span>
                       </h1>
                       <p className="lead text-white">
-                      I currently studying web development at ASAC
+                      I'm currently studying web development at ASAC this page brings a highlight to my projects through my learning journey.
                       </p>
                       <div className="btn-wrapper">
                       </div>
@@ -123,6 +123,7 @@ class Landing extends React.Component {
                 <Col className="order-md-2" md="6">
                   <img
                     alt="..."
+                    
                     className="img-fluid floating"
                     src={promo1}
                   />
@@ -145,6 +146,7 @@ class Landing extends React.Component {
                           <div>
                             <Badge
                               className="badge-circle mr-3"
+                              href="https://github.com/Marwan-Zakia/horned-beasts"
                               color="success"
                             >
                               <i className="ni ni-settings-gear-65" />
@@ -183,6 +185,7 @@ class Landing extends React.Component {
                             <Badge
                               className="badge-circle mr-3"
                               color="success"
+                              href="https://github.com/Vteam-201/PartHunt"
                             >
                               <i className="ni ni-settings-gear-65" />
                             </Badge>
@@ -216,6 +219,7 @@ class Landing extends React.Component {
                     alt="..."
                     className="img-fluid floating"
                     src={profile}
+                    H
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
@@ -258,6 +262,7 @@ class Landing extends React.Component {
                             <Badge
                               className="badge-circle mr-3"
                               color="success"
+                              href="https://github.com/Marwan-Zakia/cookie-stand"
                             >
                               <i className="ni ni-settings-gear-65" />
                             </Badge>
