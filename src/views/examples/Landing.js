@@ -132,7 +132,7 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Hrond Beasts</h3>
+                    <h3>Hrond Beasts </h3>
                     <p>
                     This website shows animals that have horns that allow the user to interact with the images to view 
                       the description about the animals also there's a feature the allows the user to filter based
