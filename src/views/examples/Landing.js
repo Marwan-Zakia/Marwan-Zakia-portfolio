@@ -19,13 +19,13 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-
 import ill2 from "assets/img/ill/ill-2.svg";
 import { Link } from "react-router-dom";
 import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
 import img from "assets/img/theme/img-2-1200x1000.jpg";
 import promom from "assets/img/theme/promo-1.png";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 // import promom from "assets/img/theme/img-2-1200x1000.jpg";
 // reactstrap components
 import {
@@ -95,7 +95,6 @@ class Landing extends React.Component {
                   </Row>
                 </div>
               </Container>
-              
               {/* SVG separator */}
               <div className="separator separator-bottom separator-skew">
                 <svg
@@ -117,63 +116,172 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
           
-          <section className="section section-lg pt-lg-0 mt--200">
-     
+          
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={promo1}
+                  />
+                </Col>
+                <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                      <i className="ni ni-settings-gear-65" />
+                    </div>
+                    <h3>Hrond Beasts</h3>
+                    <p>
+                    This website shows animals that have horns that allow the user to interact with the images to view 
+                      the description about the animals also there's a feature the allows the user to filter based
+                       on the number of horns 
+                      you're good to go.
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="ni ni-settings-gear-65" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                            The goal of this website is to test our knowledge with components and array methods.  
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </section>
           <section className="section section-lg">
-   
+            <Container>
+              <Row className="row-grid align-items-center">
+              <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                      <i className="ni ni-settings-gear-65" />
+                    </div>
+                    <h3>Part hunt</h3>
+                    <p>
+                    This site allows users to view part-time jobs that companies
+                       has posted and also allows the apply for said jobs.
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="ni ni-settings-gear-65" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                            This was my first project that i did as a team for the 201 level.
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                      </ul>
+                      </div>
+                </Col>
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={landing}
+                  />
+                </Col>
+        
+              </Row>
+            </Container>
           </section>
-          <section className="section bg-secondary">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link href="https://github.com/Vteam-201/PartHunt">
-                    <CardImg
-                      alt="..."
-                      src={landing}
-                      
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-              <CardImg
-                      alt="..."
-                      src={img}
-                    />  
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={promom}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={profile}
+                  />
+                </Col>
+                <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                      <i className="ni ni-settings-gear-65" />
+                    </div>
+                    <h3>Part hunt</h3>
+                    <p>
+                    On this site, companies can fill this form to about the jobs they have vacancies for.
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </section>
-          <section className="section section-lg pt-0">
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={img}
+                  />
+                </Col>
+                <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                      <i className="ni ni-settings-gear-65" />
+                    </div>
+                    <h3>Salamon cockeis </h3>
+                    <p>
+                    This website shows sales data from a cookie store and its locations. 
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="ni ni-settings-gear-65" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                            This website is the first site that was complex for the level 
+                      that I was it introduced constructor object and how to display form javascript to HTML. 
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </section>
          
-          <Download />
+
+        
+
+
+          <SimpleFooter />
         </main>
         
       </>
